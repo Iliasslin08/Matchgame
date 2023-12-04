@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Matchgame/static/css/main.280cd04e.css",
+    "main.js": "/Matchgame/static/js/main.470cf9fd.js",
+    "index.html": "/Matchgame/index.html",
+    "main.280cd04e.css.map": "/Matchgame/static/css/main.280cd04e.css.map",
+    "main.470cf9fd.js.map": "/Matchgame/static/js/main.470cf9fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.280cd04e.css",
+    "static/js/main.470cf9fd.js"
+  ]
+}
