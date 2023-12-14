@@ -18,7 +18,7 @@ function App() {
       { "src": "https://img.freepik.com/vecteurs-libre/mignon-pug-dog-bite-bone-cartoon-vector-icon-illustration-concept-icone-nature-animale-isole-premium_138676-7370.jpg?w=740&t=st=1701560201~exp=1701560801~hmac=0d0e2101dd98981e4e97e6059046f6f2a1209a72830aab419767c256d48d6d0d", },
     ];
   const random = () => {
-    const shuffleCard = [...cardImg, ...cardImg]
+    const shuffleCard = [cardImg, ...cardImg]
       .sort(() => Math.random() - 0.5)
       .map((card, index) => ({ ...card, id: index, flipped: false}));
     setCardRandom(shuffleCard);
@@ -75,9 +75,9 @@ function App() {
   
   return (
     <div className='App'>
-      <h2 className=''>Match game with iliass linboui:</h2>
+      <h2 className=''>Match game:</h2>
       <p>{turns}</p>
-      <button onClick={random}>New game😍</button>
+      <button onClick={random}>New game </button>
 
       <div className='card-grid'>
         {cardRandom.map((card) => (
